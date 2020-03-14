@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup as soup
 from urllib.request import urlopen as uReq
 import re
 ''' This Code is all about getting links in <a> tag getting href data storing in a csv file '''
-my_url = "https://www.toprankers.com"
+my_url = "https://www.rirm.in"
 
 uClient = uReq(my_url)
 page_html = uClient.read()
